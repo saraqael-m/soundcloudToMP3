@@ -1,4 +1,4 @@
-# soundcloudToMP3
+# SoundcloudToMP3
 ## Description
 Includes a script to convert soundcloud songs / playlists / liked songs to mp3 files. I tried multiple different soundcloud converters for python but all seemed deprecated. That's why I decided to make one myself. It will download all the songs that aren't already in the directory, so it's great as a tool to renew the downloads if a soundcloud playlist has new songs added to it.
 
