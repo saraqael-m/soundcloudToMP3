@@ -5,11 +5,14 @@ Includes a script to convert soundcloud songs / playlists / liked songs to mp3 f
 ## Dependencies and Setup
 **You need a Chromedriver and the Chrome browser for this to work. More infos later on!**
 I tested this script only with [Python 3.7.9](https://www.python.org/downloads/release/python-379/) but all 3.7.x versions should definitely work. Newer versions probably work, but older versions might not.
+
 Python modules you need (can be installed in cmd via "pip" command):
-* selenium (pip install selenium)
-* urllib3 (pip install urllib3)
-* progressbar (pip install progressbar)
+* selenium (`pip install selenium`)
+* urllib3 (`pip install urllib3`)
+* progressbar (`pip install progressbar`)
+
 along with the preinstalled os, time, and sys modules.
+
 Also, you have to have [Chrome](https://www.google.com/chrome/) (preferably version 91, because it was only tested with that) along with the corresponding [Chromedriver](https://chromedriver.chromium.org/downloads) (also preferably version 91).
 The only things that have to be hardcoded are the two variables at the top of the script:
 * **downloadPath** variable should be a string of the path to the download folder you want (if not configured it will be in the same dir as the script; for example: `r"C://user//saraqael-m//Documents//soundcloudMusic"`, two forward slashes instead of a backward slash)
@@ -27,4 +30,4 @@ An example command in the terminal would now look like this:
 
 `C:\user\saraqael-m\Documents\soundcloudMusic> python soundcloudDownloader.py s https://soundcloud.com/sunnexo/lost-umbrella-remix`
 
-My script uses the website https://soundcloudtomp3.app/ to get its files from.
+My script uses the website https://soundcloudtomp3.app/ to get its mp3 files from.
