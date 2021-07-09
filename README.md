@@ -20,7 +20,7 @@ The only things that have to be hardcoded are the two variables at the top of th
 
 ## Usage
 1. Navigate to the folder with the python script in it.
-2. Open a terminal in that directory (either by typing "cmd" into the path in explorer or by inputting `cd C:\path\to\script\folder\here` into cmd).
+2. Open a terminal in that directory (either by typing "cmd" into the path in explorer or by inputting the path into cmd manually with `cd C:\path\to\script\folder\here`).
 3. Run the command `python soundcloudDownloader.py [s/p/l] [url] ([downloadPath])`.
     * the first parameter can be s, p, or l, depending on if you want to download a **S**ong, a **P**laylist, or the **L**ikes of a person
     * the second parameter is always the link to that song / playlist / liked songs (for example a song: https://soundcloud.com/sunnexo/lost-umbrella-remix; if you want to download the likes, https://soundcloud.com/you/likes won't work, you have to replace "you" with your username, which can be found in the url in your profile)
