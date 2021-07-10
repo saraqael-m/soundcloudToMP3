@@ -14,8 +14,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 
-downloadPath = os.path.abspath(__file__)
-executablePath = os.path.abspath(__file__) + "//chromedriver.exe"
+downloadPath = os.path.dirname(os.path.abspath(__file__))
+executablePath = os.path.dirname(os.path.abspath(__file__)) + "//chromedriver.exe"
 
 def start(downloadPath, executablePath):
 	global driver
@@ -171,12 +171,13 @@ if __name__ == "__main__":
 	start(dpath, executablePath)
 	
 	if dtype == "s":
-		downloadSong(durl, dpath, downloadedSongs(dpath))
+		downloadSongFast(durl, dpath, downloadedSongs(dpath))
 	elif dtype == "p":
 		downloadPlaylist(durl, dpath)
 	elif dtype == "l":
 		downloadLikes(durl, dpath)
 	else:
 		print("No such download type.")
-	time.sleep(1)
+
+	time.sleep(.1)
 	driver.quit()
