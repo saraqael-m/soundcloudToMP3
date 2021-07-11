@@ -15,8 +15,8 @@ along with the preinstalled os, time, and sys modules.
 
 Also, you have to have [Chrome](https://www.google.com/chrome/) (preferably version 91, because it was only tested with that) along with the corresponding [Chromedriver](https://chromedriver.chromium.org/downloads) (also preferably version 91).
 The only things that have to be hardcoded are the two variables at the top of the script:
-* **downloadPath** variable should be a string of the path to the download folder you want (if not configured it will be in the same dir as the script; for example: `r"C://user//saraqael-m//Documents//soundcloudMusic"`, two forward slashes instead of a backward slash)
-* **executablePath** variable should be a string of the path to the chromedriver.exe (including the name of the .exe file at the end; if not configured it has to be in the same dir as the script; for example: `r"C://user//saraqael-m//Documents//chromedriver.exe"`)
+* **downloadPath** variable should be a string of the path to the download folder you want (for example: `r"C://user//saraqael-m//Documents//soundcloudMusic"`, two forward slashes instead of a backward slash; if not configured it will be in the same dir as the script)
+* **executablePath** variable should be a string of the path to the chromedriver.exe (for example: `r"C://user//saraqael-m//Documents//chromedriver.exe"`; including the name of the .exe file at the end; if not configured it has to be in the same dir as the script)
 
 ## Usage
 1. Navigate to the folder with the python script in it.
