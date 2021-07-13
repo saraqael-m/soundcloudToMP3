@@ -2,7 +2,7 @@
 # USAGE:
 #
 # in cmd, dir with python file: "python soundcloudDownload.py [s/p/l/m] [songURL] ([downloadPath])"
-# downloadPath is optional, s = song, p = playlist, l = likes (all likes from specific person), m = my likes
+# downloadPath is optional, s = song, p = playlist, l = likes (all likes from specific person)
 
 import os, time, sys
 import urllib.request
