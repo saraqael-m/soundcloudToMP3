@@ -26,7 +26,7 @@ The only things that have to be hardcoded are the two variables at the top of th
     * the second parameter is always the link to that song / playlist / liked songs (for example a song: https://soundcloud.com/sunnexo/lost-umbrella-remix; if you want to download the likes, https://soundcloud.com/you/likes won't work, you have to replace "you" with your username, which can be found in the url in your profile)
     * the third parameter is optional but it can be used to directly set the downloadPath variable to decide where to the songs are downloaded
 
-If it doesn't work the first time, check yout internet conenction and try again. An example command in the terminal would now look like this:
+If it doesn't work the first time, check yout internet connection and try again. An example command in the terminal would now look like this:
 
 `C:\user\saraqael-m\Documents\soundcloudMusic> python soundcloudDownloader.py s https://soundcloud.com/sunnexo/lost-umbrella-remix`
 
